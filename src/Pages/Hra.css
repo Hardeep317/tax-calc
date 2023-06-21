@@ -1,0 +1,65 @@
+.m-container{
+    width: 70%;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.input-div{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-div-o{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(222, 221, 221);
+}
+
+.inputs{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.temp_btn{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(87, 87, 246);
+    margin-top: 20px;
+    border: none;
+    margin-left: 30px;
+    padding: 12px;
+}
+
+.calc_btn{
+    border: none;
+    color: white;
+    background-color: crimson;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.reset_btn{
+    border: none;
+    color: white;
+    background-color: gray;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.input-check{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+}

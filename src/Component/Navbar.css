@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    text-align: center;
+}
+
+
+.navLinks > a{
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks > a > li{
+    list-style-type: none;
+    font-size: 18px;
+}
