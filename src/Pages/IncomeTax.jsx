@@ -973,7 +973,7 @@ function IncomeTax() {
           </div>
         )}
 
-        <div>
+        {taxable > 0 && <div>
           <p className="introduc">Advance Tax liability</p>
           <div className="tax-initial">
             <p className="heading-d">Description</p>
@@ -1000,7 +1000,8 @@ function IncomeTax() {
             <p className="detail-text">{result}.00</p>
           </div>
         </div>
-        <div>
+}
+       {taxable > 0 && <div>
           <p className="introduc">Advance Tax Installments</p>
           <div className="tax-initial">
             <p className="heading-d">Description</p>
@@ -1031,7 +1032,7 @@ function IncomeTax() {
             </p>
             <p className="detail-text">{0}.00</p>
           </div>
-        </div>
+        </div> }
       </div>
     </div>
   );
